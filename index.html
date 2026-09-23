@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vijay Shingote — Data Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">vijay.shingote</div>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme-toggle" aria-label="Toggle dark/light mode">🌙</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <p class="hero-tag">Open to Data Analyst roles</p>
+    <h1 class="hero-name">Vijay Shingote</h1>
+    <p class="hero-headline">
+      Data Analyst skilled in SQL, Python, Power BI &amp; Tableau — cleaning
+      messy data, building dashboards, and surfacing the insight that changes
+      the decision.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+    </div>
+
+    <div class="hero-socials">
+      <a href="mailto:vijayshingote77@gmail.com" target="_blank">Email</a>
+      <a href="https://linkedin.com/in/vijayshingote" target="_blank">LinkedIn</a>
+      <a href="https://github.com/vijayshingote" target="_blank">GitHub</a>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">
+      I'm a Data Analyst with a strong foundation in SQL, Python, Excel, and
+      Power BI. I'm skilled in cleaning, analyzing, and visualizing data to
+      generate insights that support data-driven decisions — and I'm
+      interested in collaborating on meaningful analytical work in
+      fast-paced environments.
+    </p>
+
+    <div class="about-stats">
+      <div class="stat">
+        <span class="stat-number">7,043</span>
+        <span class="stat-label">customer records analyzed</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">25,000+</span>
+        <span class="stat-label">sales rows queried</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">7.3</span>
+        <span class="stat-label">CGPA / 10</span>
+      </div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Education</h3>
+        <p><strong>B.Sc. Computer Science</strong></p>
+        <p class="text-muted">Savitribai Phule Pune University</p>
+        <p class="text-muted">Graduated 2026 · CGPA 7.3/10</p>
+      </div>
+
+      <div class="about-card">
+        <h3>Skills</h3>
+        <div class="tags">
+          <span class="tag">SQL</span>
+          <span class="tag">Python</span>
+          <span class="tag">Excel</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Tableau</span>
+          <span class="tag">Data Cleaning</span>
+          <span class="tag">EDA</span>
+          <span class="tag">Descriptive Statistics</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-subtitle">Things I've built with real, messy data.</p>
+
+    <div class="project-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <h3>Customer Churn Analysis</h3>
+        <p class="project-date">Python · Mar 2026 – Apr 2026</p>
+        <ul class="project-points">
+          <li>Analyzed behavior of <strong>7,043 telecom customers</strong> to identify churn patterns based on tenure, contract type, and monthly charges.</li>
+          <li>Engineered new features including contract type buckets and tenure bands to improve segmentation.</li>
+          <li>Generated <strong>11 visualizations</strong> (histograms, box plots, heatmaps) to highlight churn-prone segments.</li>
+          <li>Revealed that <strong>38% of churned users</strong> were on monthly contracts with less than 3-month tenure — suggested early engagement strategies.</li>
+        </ul>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">EDA</span>
+          <span class="tag">Data Visualization</span>
+        </div>
+        <div class="project-links">
+          <a href="#" target="_blank" class="btn btn-secondary btn-sm">GitHub ↗</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <h3>Sales Dashboard for Regional Performance</h3>
+        <p class="project-date">SQL · Power BI · Jun 2026 – Jul 2026</p>
+        <ul class="project-points">
+          <li>Queried and joined <strong>3 sales-related tables</strong> covering over <strong>25,000 rows</strong> across 12 months and 5 regions using optimized SQL joins.</li>
+          <li>Built <strong>10 dynamic measures and KPIs</strong> in Power BI to track regional sales, return trends, and product performance.</li>
+          <li>Designed multipage dashboards with slicers and filters for drill-down by region, product category, and time.</li>
+          <li>Detected a <strong>14% sales drop</strong> post-festival in the South region — insight used for a marketing recovery plan.</li>
+        </ul>
+        <div class="tags">
+          <span class="tag">SQL</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">DAX</span>
+          <span class="tag">Dashboards</span>
+        </div>
+        <div class="project-links">
+          <a href="#" target="_blank" class="btn btn-secondary btn-sm">GitHub ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
