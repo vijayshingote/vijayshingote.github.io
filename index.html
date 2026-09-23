@@ -3,146 +3,805 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vijay Shingote — Data Analyst</title>
+
+  <title>Vijay Govind Shingote — Data Analyst</title>
+
+  <meta
+    name="description"
+    content="Portfolio of Vijay Govind Shingote — Data Analyst skilled in SQL, Python, Excel and Power BI."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-  <!-- Navbar -->
+  <!-- ================= NAVBAR ================= -->
+
   <header class="navbar">
-    <div class="logo">vijay.shingote</div>
+
+    <a href="#home" class="logo">
+      vijay<span>.shingote</span>
+    </a>
+
     <nav class="nav-links">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
-      <a href="#about">Skills</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
       <a href="#contact">Contact</a>
     </nav>
-    <button id="theme-toggle" aria-label="Toggle dark/light mode">🌙</button>
+
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      aria-label="Toggle theme"
+    >
+      ☀
+    </button>
+
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <p class="hero-tag">Open to Data Analyst roles</p>
-    <h1 class="hero-name">Vijay Shingote</h1>
-    <p class="hero-headline">
-      Data Analyst skilled in SQL, Python, Power BI &amp; Tableau — cleaning
-      messy data, building dashboards, and surfacing the insight that changes
-      the decision.
-    </p>
 
-    <div class="hero-buttons">
-      <a href="#projects" class="btn btn-primary">View Projects</a>
-      <a href="#contact" class="btn btn-secondary">Get in Touch</a>
-    </div>
+  <!-- ================= HERO ================= -->
 
-    <div class="hero-socials">
-      <a href="mailto:vijayshingote77@gmail.com" target="_blank">Email</a>
-      <a href="https://linkedin.com/in/vijayshingote" target="_blank">LinkedIn</a>
-      <a href="https://github.com/vijayshingote" target="_blank">GitHub</a>
-    </div>
-  </section>
-  <!-- About Section -->
-  <section id="about" class="about">
-    <h2 class="section-title">About Me</h2>
-    <p class="about-text">
-      I'm a Data Analyst with a strong foundation in SQL, Python, Excel, and
-      Power BI. I'm skilled in cleaning, analyzing, and visualizing data to
-      generate insights that support data-driven decisions — and I'm
-      interested in collaborating on meaningful analytical work in
-      fast-paced environments.
-    </p>
+  <main>
 
-    <div class="about-stats">
-      <div class="stat">
-        <span class="stat-number">7,043</span>
-        <span class="stat-label">customer records analyzed</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">25,000+</span>
-        <span class="stat-label">sales rows queried</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">7.3</span>
-        <span class="stat-label">CGPA / 10</span>
-      </div>
-    </div>
+    <section id="home" class="hero">
 
-    <div class="about-grid">
-      <div class="about-card">
-        <h3>Education</h3>
-        <p><strong>B.Sc. Computer Science</strong></p>
-        <p class="text-muted">Savitribai Phule Pune University</p>
-        <p class="text-muted">Graduated 2026 · CGPA 7.3/10</p>
-      </div>
+      <div class="hero-left">
 
-      <div class="about-card">
-        <h3>Skills</h3>
-        <div class="tags">
-          <span class="tag">SQL</span>
-          <span class="tag">Python</span>
-          <span class="tag">Excel</span>
-          <span class="tag">Power BI</span>
-          <span class="tag">Tableau</span>
-          <span class="tag">Data Cleaning</span>
-          <span class="tag">EDA</span>
-          <span class="tag">Descriptive Statistics</span>
+        <div class="availability">
+          <span class="availability-dot"></span>
+          Open to Data Analyst roles
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- Projects Section -->
-  <section id="projects" class="projects">
-    <h2 class="section-title">Projects</h2>
-    <p class="section-subtitle">Things I've built with real, messy data.</p>
 
-    <div class="project-grid">
+        <h1>
+          Vijay Govind
+          <br />
+          Shingote
+        </h1>
 
-      <!-- Project 1 -->
-      <div class="project-card">
-        <h3>Customer Churn Analysis</h3>
-        <p class="project-date">Python · Mar 2026 – Apr 2026</p>
-        <ul class="project-points">
-          <li>Analyzed behavior of <strong>7,043 telecom customers</strong> to identify churn patterns based on tenure, contract type, and monthly charges.</li>
-          <li>Engineered new features including contract type buckets and tenure bands to improve segmentation.</li>
-          <li>Generated <strong>11 visualizations</strong> (histograms, box plots, heatmaps) to highlight churn-prone segments.</li>
-          <li>Revealed that <strong>38% of churned users</strong> were on monthly contracts with less than 3-month tenure — suggested early engagement strategies.</li>
-        </ul>
-        <div class="tags">
-          <span class="tag">Python</span>
-          <span class="tag">Pandas</span>
-          <span class="tag">EDA</span>
-          <span class="tag">Data Visualization</span>
+        <p class="hero-description">
+          Data Analyst skilled in Python, SQL, Power BI & Excel — 
+          building dashboards, querying large datasets, and surfacing
+          the insight buried in row one million.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#projects" class="btn btn-primary">
+            View Projects
+            <span>↗</span>
+          </a>
+
+          <a href="#contact" class="btn btn-secondary">
+            Get in Touch
+          </a>
+
         </div>
-        <div class="project-links">
-          <a href="#" target="_blank" class="btn btn-secondary btn-sm">GitHub ↗</a>
-        </div>
+
       </div>
 
-      <!-- Project 2 -->
-      <div class="project-card">
-        <h3>Sales Dashboard for Regional Performance</h3>
-        <p class="project-date">SQL · Power BI · Jun 2026 – Jul 2026</p>
-        <ul class="project-points">
-          <li>Queried and joined <strong>3 sales-related tables</strong> covering over <strong>25,000 rows</strong> across 12 months and 5 regions using optimized SQL joins.</li>
-          <li>Built <strong>10 dynamic measures and KPIs</strong> in Power BI to track regional sales, return trends, and product performance.</li>
-          <li>Designed multipage dashboards with slicers and filters for drill-down by region, product category, and time.</li>
-          <li>Detected a <strong>14% sales drop</strong> post-festival in the South region — insight used for a marketing recovery plan.</li>
-        </ul>
-        <div class="tags">
-          <span class="tag">SQL</span>
-          <span class="tag">Power BI</span>
-          <span class="tag">DAX</span>
-          <span class="tag">Dashboards</span>
+
+      <!-- TERMINAL -->
+
+      <div class="hero-right">
+
+        <div class="terminal-card">
+
+          <div class="terminal-header">
+
+            <div class="terminal-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+
+            <span class="terminal-title">
+              analyst_profile.sql
+            </span>
+
+          </div>
+
+
+          <div class="terminal-body">
+
+            <p class="comment">
+              -- pull profile summary
+            </p>
+
+            <p>
+              <span class="purple">SELECT</span>
+              name, role, location
+            </p>
+
+            <p>
+              <span class="purple">FROM</span>
+              analysts
+            </p>
+
+            <p>
+              <span class="purple">WHERE</span>
+              name =
+              <span class="amber">
+                'Vijay Shingote'
+              </span>;
+            </p>
+
+            <div class="terminal-divider"></div>
+
+            <p>
+              <span class="terminal-label">name</span>
+              →
+              Vijay Govind Shingote
+            </p>
+
+            <p>
+              <span class="terminal-label">role</span>
+              →
+              Data Analyst
+            </p>
+
+            <p>
+              <span class="terminal-label">location</span>
+              →
+              Pune, Maharashtra, IN
+            </p>
+
+            <p>
+              <span class="terminal-label">stack</span>
+              →
+              SQL · Python · Power BI · Excel
+            </p>
+
+            <p>
+              <span class="terminal-label">status</span>
+              →
+              <span class="available-text">
+                available_for_hire
+                <span class="cursor">|</span>
+              </span>
+            </p>
+
+          </div>
+
         </div>
-        <div class="project-links">
-          <a href="#" target="_blank" class="btn btn-secondary btn-sm">GitHub ↗</a>
-        </div>
+
       </div>
 
-    </div>
-  </section>
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section about-section">
+
+      <div class="section-label">
+        ABOUT
+      </div>
+
+      <h2 class="large-heading">
+        Comfortable wherever<br />
+        the data lives.
+      </h2>
+
+      <div class="about-layout">
+
+        <div class="about-text">
+
+          <p>
+            I'm a Data Analyst pursuing a M.Sc. in Data Science at Savitribai
+            Phule Pune University, with hands-on experience across the
+            analytics stack — Python, SQL, Power BI, and Excel.
+
+
+          </p>
+
+          <p>
+            I enjoy the full lifecycle of a dataset — cleaning it, exploring it,
+            engineering features from it, and finally putting it in front of 
+            someone as a dashboard or report they can actually use.
+          </p>
+
+          <p>
+            I like working close to the business question: what 
+            changed, why it changed, and what to do about it next.
+          </p>
+
+        </div>
+
+
+        <div class="stats-grid">
+
+          <div class="stat-card">
+            <span class="stat-number">SQL</span>
+            <span class="stat-description">
+              Querying & analysis
+            </span>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-number">Python</span>
+            <span class="stat-description">
+              Data cleaning & EDA
+            </span>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-number">Power BI</span>
+            <span class="stat-description">
+              Dashboards & reporting
+            </span>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-number">7.29</span>
+            <span class="stat-description">
+              CGPA / 10
+            </span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section projects-section">
+
+      <div class="section-label">
+        PROJECTS
+      </div>
+
+      <h2 class="large-heading">
+        Things I've built with<br />
+        messy, real data.
+      </h2>
+
+      <p class="section-description">
+        Analytical projects focused on SQL, Python, data cleaning,
+        exploration and visualization.
+      </p>
+
+
+      <div class="project-list">
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card">
+
+          <div class="project-number">
+            01
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-header">
+
+              <div>
+
+                <h3>
+                  Cab Booking Data Analysis
+                </h3>
+
+                <p class="project-meta">
+                  Python · SQL · Power BI
+                </p>
+
+              </div>
+
+              <a
+                href="#"
+                class="project-link"
+                target="_blank"
+              >
+                GitHub ↗
+              </a>
+
+            </div>
+
+
+            <p class="project-description">
+              A data analysis project focused on understanding
+              booking behaviour, ride patterns, cancellations,
+              revenue and customer activity.
+            </p>
+
+
+            <ul class="project-points">
+
+              <li>
+                Cleaned and prepared raw booking data for analysis.
+              </li>
+
+              <li>
+                Used SQL to query data and calculate important KPIs.
+              </li>
+
+              <li>
+                Used Python and Pandas for exploratory data analysis.
+              </li>
+
+              <li>
+                Created visualizations and dashboard-ready insights.
+              </li>
+
+            </ul>
+
+
+            <div class="tags">
+
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>SQL</span>
+              <span>Power BI</span>
+              <span>EDA</span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card">
+
+          <div class="project-number">
+            02
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-header">
+
+              <div>
+
+                <h3>
+                  Sales Data Analysis
+                </h3>
+
+                <p class="project-meta">
+                  SQL · Power BI · Excel
+                </p>
+
+              </div>
+
+              <a
+                href="#"
+                class="project-link"
+                target="_blank"
+              >
+                GitHub ↗
+              </a>
+
+            </div>
+
+
+            <p class="project-description">
+              A sales analytics project designed to explore
+              revenue, product performance, regional trends
+              and business KPIs.
+            </p>
+
+
+            <ul class="project-points">
+
+              <li>
+                Cleaned and structured sales data for analysis.
+              </li>
+
+              <li>
+                Used SQL joins, filtering and aggregation.
+              </li>
+
+              <li>
+                Created calculated KPIs for business reporting.
+              </li>
+
+              <li>
+                Designed dashboard views for interactive analysis.
+              </li>
+
+            </ul>
+
+
+            <div class="tags">
+
+              <span>SQL</span>
+              <span>Power BI</span>
+              <span>Excel</span>
+              <span>DAX</span>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section skills-section">
+
+      <div class="section-label">
+        SKILLS
+      </div>
+
+      <h2 class="large-heading">
+        Tools I use to<br />
+        work with data.
+      </h2>
+
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+
+          <div class="skill-icon">
+            SQL
+          </div>
+
+          <h3>SQL</h3>
+
+          <p>
+            Queries, joins, aggregation, subqueries,
+            filtering and data analysis.
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <div class="skill-icon">
+            PY
+          </div>
+
+          <h3>Python</h3>
+
+          <p>
+            Python fundamentals, Pandas, NumPy,
+            data cleaning and exploratory analysis.
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <div class="skill-icon">
+            BI
+          </div>
+
+          <h3>Power BI</h3>
+
+          <p>
+            Dashboard development, KPIs,
+            data modeling and DAX fundamentals.
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <div class="skill-icon">
+            XL
+          </div>
+
+          <h3>Excel</h3>
+
+          <p>
+            Data cleaning, formulas, analysis,
+            PivotTables and reporting.
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <div class="skill-icon">
+            EDA
+          </div>
+
+          <h3>Data Analysis</h3>
+
+          <p>
+            Data cleaning, EDA, descriptive statistics
+            and insight generation.
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <div class="skill-icon">
+            DB
+          </div>
+
+          <h3>Databases</h3>
+
+          <p>
+            Relational database concepts,
+            normalization and working with SQL databases.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section id="experience" class="section experience-section">
+
+      <div class="section-label">
+        EXPERIENCE
+      </div>
+
+      <h2 class="large-heading">
+        Where I've<br />
+        gained experience.
+      </h2>
+
+
+      <div class="experience-card">
+
+        <div class="experience-date">
+          Jan 2026 — Jul 2026
+        </div>
+
+        <div class="experience-main">
+
+          <h3>
+            Data Analytics Trainee
+          </h3>
+
+          <p class="company">
+            Skillected Education Pvt. Ltd.
+          </p>
+
+          <p class="experience-description">
+            Worked with training datasets and developed
+            practical understanding of SQL, Python, Excel
+            and Power BI through analytics-focused learning.
+          </p>
+
+          <div class="tags">
+
+            <span>SQL</span>
+            <span>Python</span>
+            <span>Excel</span>
+            <span>Power BI</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="section education-section">
+
+      <div class="section-label">
+        EDUCATION
+      </div>
+
+      <h2 class="large-heading">
+        Academic foundation.
+      </h2>
+
+
+      <div class="education-card">
+
+        <div class="education-year">
+          2023 — 2026
+        </div>
+
+        <div>
+
+          <h3>
+            B.Sc. Computer Science
+          </h3>
+
+          <p class="education-institute">
+            Savitribai Phule Pune University
+          </p>
+
+          <p class="education-detail">
+            CGPA: 7.29 / 10
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section
+      id="certifications"
+      class="section certifications-section"
+    >
+
+      <div class="section-label">
+        CERTIFICATIONS
+      </div>
+
+      <h2 class="large-heading">
+        Learning beyond<br />
+        the classroom.
+      </h2>
+
+
+      <div class="cert-grid">
+
+        <div class="cert-card">
+
+          <span class="cert-number">
+            01
+          </span>
+
+          <h3>
+            SQL
+          </h3>
+
+          <p>
+            SQL training and practical query development.
+          </p>
+
+        </div>
+
+
+        <div class="cert-card">
+
+          <span class="cert-number">
+            02
+          </span>
+
+          <h3>
+            Python
+          </h3>
+
+          <p>
+            Python programming and data analysis fundamentals.
+          </p>
+
+        </div>
+
+
+        <div class="cert-card">
+
+          <span class="cert-number">
+            03
+          </span>
+
+          <h3>
+            Power BI
+          </h3>
+
+          <p>
+            Power BI dashboard and visualization training.
+          </p>
+
+        </div>
+
+
+        <div class="cert-card">
+
+          <span class="cert-number">
+            04
+          </span>
+
+          <h3>
+            Excel
+          </h3>
+
+          <p>
+            Excel-based data analysis and reporting.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact-section">
+
+      <div class="section-label">
+        CONTACT
+      </div>
+
+      <h2>
+        Let's turn your data into a decision.<br />
+        
+      </h2>
+
+      <p>
+        Open to Data Analyst roles and internships.
+      </p>
+
+
+      <div class="contact-buttons">
+
+        <a
+          href="mailto:vijayshingote77@gmail.com"
+          class="btn btn-primary"
+        >
+          Email Me ↗
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/vijay-shingote-a2a869268"
+          target="_blank"
+          class="btn btn-secondary"
+        >
+          LinkedIn ↗
+        </a>
+
+        <a
+          href="https://github.com/vijayshingote"
+          target="_blank"
+          class="btn btn-secondary"
+        >
+          GitHub ↗
+        </a>
+
+      </div>
+
+
+      <footer>
+
+        <span>
+          © 2026 Vijay Govind Shingote
+        </span>
+
+        <span>
+          Built with HTML · CSS · JavaScript
+        </span>
+
+      </footer>
+
+    </section>
+
+  </main>
 
 
   <script src="script.js"></script>
+
 </body>
 </html>
